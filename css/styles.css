@@ -1,5 +1,22 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 16px;  /* Cada 1rem equivalente a 10px */
+}
+
+
 h1
 {
     text-align: center;
-    color: green
+    font-size: 3.8rem;
 }
+
+span
+{
+    font-size: 2rem;
+}
+
