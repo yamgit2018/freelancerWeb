@@ -38,3 +38,25 @@ h1.titulo span
     font-size: 2rem;
 }
 
+.navegador_color
+{
+    background-color: var(--secundario);
+}
+
+.contenedor
+{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navegador_principal
+{
+    padding: 1rem;
+}
+
+.navegador_principal a
+{
+    color: var(--blanco);
+    text-decoration: none;
+    
+}
