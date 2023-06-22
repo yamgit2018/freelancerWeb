@@ -38,7 +38,7 @@ h1.titulo span
     font-size: 2rem;
 }
 
-.navegador_color
+.bg_color
 {
     background-color: var(--secundario);
 }
@@ -51,7 +51,9 @@ h1.titulo span
 
 .navegador_principal
 {
-    padding: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navegador_principal a
