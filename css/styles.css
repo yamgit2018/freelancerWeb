@@ -51,7 +51,7 @@ h1.titulo span
 
 .navegador_principal
 {
-    padding: 2rem;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -60,5 +60,15 @@ h1.titulo span
 {
     color: var(--blanco);
     text-decoration: none;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
     
 }
+
+.navegador_principal a:hover
+{
+    color: var(--oscuro);
+    background-color: var(--primario);
+}
+
