@@ -99,6 +99,15 @@ h1.titulo span
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
-    padding: 2rem;
+    position: relative;
+}
+
+.contenido_hero
+{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    background-color: rgb(0 0 0 /70%);
+    height: 100%;
+    width: 100%;
 }
 
