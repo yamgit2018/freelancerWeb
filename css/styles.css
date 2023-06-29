@@ -8,7 +8,7 @@
 
 }
 
-
+/* Globales */
 html
 {
     font-size: 62.5%;
@@ -26,29 +26,6 @@ body
     font-family: 'Krub', sans-serif;
 }
 
-
-.titulo  
-{
-    text-align: center;
-    font-size: 3.8rem;
-}
-
-/* .titulo span
-{
-    font-size: 2rem;
-  
-} */
-
-h1.titulo span
-{
-    font-size: 2rem;
-}
-
-.bg_color
-{
-    background-color: var(--secundario);
-}
-
 .contenedor
 {
     max-width: 120rem;
@@ -64,6 +41,64 @@ h1.titulo span
   
 } */
 
+.boton
+{
+    background-color: var(--secundario);
+    padding: 1rem 3rem;
+    color: var(--blanco);
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px)        
+{
+     .boton
+     {
+        width: auto;
+     }
+}
+
+
+/* Tipografia */
+h1
+{
+    font-size: 3.8rem;
+}
+
+h2
+{
+    font-size: 2.8rem;
+}
+
+h3
+{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3
+{
+    text-align: center;
+}
+
+
+/* Titulos */
+h1.titulo span
+{
+    font-size: 2rem;
+}
+
+.bg_color
+{
+    background-color: var(--secundario);
+}
+
+/* Navegador Principal */
 @media (min-width: 768px) 
 {
     .navegador_principal
@@ -93,6 +128,8 @@ h1.titulo span
     background-color: var(--primario);
 }
 
+/* Imagen Principal*/
+
 .hero
 {
     background-image: url(../img/hero.jpg);
@@ -109,5 +146,21 @@ h1.titulo span
     background-color: rgb(0 0 0 /70%);
     height: 100%;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.contenido_hero h2, .contenido_hero p
+{
+    color: var(--blanco);
+}
+
+
+.contenido_hero .ubicacion
+{
+    display: flex;
+    align-items: flex-end;
+}
