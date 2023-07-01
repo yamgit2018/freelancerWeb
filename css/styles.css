@@ -26,12 +26,16 @@ body
     font-size: 16px;  /* Cada 1rem equivalente a 10px */
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
+   
+
 }
 
 .contenedor
 {
     max-width: 120rem;
     margin: 0 auto;
+    /* background-color: var(--blanco); */
+    
 }
 
 /* .navegador_principal
@@ -66,6 +70,13 @@ body
      }
 }
 
+.sombra
+{
+    box-shadow: 0px 10px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
 
 /* Tipografia */
 h1
@@ -139,6 +150,7 @@ h1.titulo span
     background-size: cover;
     height: 45rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido_hero
