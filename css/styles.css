@@ -220,3 +220,37 @@ h1.titulo span
     line-height: 2;
     text-align: center;
 }
+
+/* Contacto */
+.formulario
+{
+    margin: 0 auto;
+    width: min( 60rem, 100% );
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset
+{
+    border: none;
+}
+
+.formulario legend
+{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primario);
+    text-transform: uppercase;
+}
+
+@media (min-width: 480px) 
+{
+    .formulario legend
+    {
+        font-size: 1.8rem;
+    } 
+}
+
