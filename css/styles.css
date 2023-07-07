@@ -60,6 +60,7 @@ body
     border-radius: 0.5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-width: 768px)        
@@ -119,6 +120,30 @@ h1.titulo span
 .bg_color
 {
     background-color: var(--secundario);
+}
+
+/* Utilidades */
+.flex
+{
+    display: flex;
+}
+
+.alinear-derecha
+{
+    justify-content: flex-end;
+}
+
+.width-boton
+{
+    width:100%;
+}
+
+@media (min-width: 768px) 
+{
+    .width-boton
+    {
+        width: auto;
+    } 
 }
 
 /* Navegador Principal */
@@ -266,3 +291,23 @@ h1.titulo span
     } 
 }
 
+.campo
+{
+    margin-bottom: 1rem;
+}
+
+.campo label
+{
+    color:var(--blanco);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-text
+{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
